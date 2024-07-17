@@ -1,0 +1,16 @@
+{
+  "title": "Selection Sort",
+  "description": "Selection sort is an algorithm that selects the smallest element from an unsorted list in each iteration and places that element at the beginning of the unsorted list.",
+  "subTitle": "How Selection-sort works?",
+  "steps": [
+    "The list is divided into two parts: sorted and unsorted.",
+    "Initially, the sorted part is empty and the unsorted part is the entire list.",
+    "The smallest element is selected from the unsorted array and swapped with the leftmost element, and that element becomes a part of the sorted array.",
+    "This process continues moving unsorted array boundary by one element to the right.",
+    "The process continues until the entire list is sorted."
+  ],
+  "timeComplexity": "O(n^2)",
+  "spaceComplexity": "O(1)",
+  "youtube": "xWBP4lzkoyM",
+  "Sources": ["https://www.geeksforgeeks.org/selection-sort/"]
+}

@@ -1,0 +1,17 @@
+{
+  "title": "Bubble Sort",
+  "description": "Bubble sort algorithm is an algorithm that sorts an array by comparing two adjacent elements and swapping them if they are not in the intended order. Here order can be anything like increasing or decreasing.",
+  "subTitle": "How Bubble-sort works?",
+  "steps": [
+    "Start from the first element, compare it with the next element of the array.",
+    "If the first element is greater than the next element of the array, swap them.",
+    "If the first element is less than the next element, move to the next element.",
+    "The above process continues until the last element.",
+    "Repeat the above steps for all the elements of the array.",
+    "The array is sorted when all the elements are in the intended order."
+  ],
+  "timeComplexity": "O(n^2)",
+  "spaceComplexity": "O(1)",
+  "youtube": "nmhjrI-aW5o",
+  "Sources": ["https://www.geeksforgeeks.org/bubble-sort-algorithms-by-using-javascript/"]
+}
