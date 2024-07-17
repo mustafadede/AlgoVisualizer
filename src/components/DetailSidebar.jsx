@@ -10,7 +10,7 @@ function DetailSidebar({ source }) {
     },
   };
   return (
-    <div className="w-1/3 h-full px-8 pb-20 overflow-y-auto bg-slate-900">
+    <div className="w-1/3 px-8 pb-4 mb-10 overflow-y-auto scrollbar-none rounded-xl bg-slate-900">
       <h1 className="my-4 text-2xl font-bold text-white">{source.title}</h1>
       <p className="mb-4 text-gray-300">
         {source.description}

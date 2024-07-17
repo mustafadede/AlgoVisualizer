@@ -3,5 +3,20 @@ export default {
   theme: {
     extend: {},
   },
-  plugins: [],
+  plugins: [
+    function ({ addUtilities }) {
+      addUtilities(
+        {
+          ".scrollbar-none": {
+            "scrollbar-width": "none",
+            "-ms-overflow-style": "none",
+          },
+          ".scrollbar-none::-webkit-scrollbar": {
+            display: "none",
+          },
+        },
+        ["responsive"]
+      );
+    },
+  ],
 };

@@ -4,7 +4,7 @@ import Navbar from "@components/Navbar";
 
 function RootLayout() {
   return (
-    <div className="flex flex-col items-center h-screen overflow-hidden bg-slate-700">
+    <div className="flex flex-col items-center h-screen px-4 overflow-hidden bg-slate-700">
       <Navbar />
       <Outlet />
     </div>
