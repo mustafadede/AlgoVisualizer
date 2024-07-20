@@ -9,7 +9,7 @@ function Selection() {
   return (
     <div className="flex w-full min-h-full pb-16">
       {!isClosed && <DetailSidebar source={selection} />}
-      <ActionLeftSection isClosed={isClosed} closeHandler={closeHandler} />
+      <ActionLeftSection title={"Selection Sort"} isClosed={isClosed} closeHandler={closeHandler} />
     </div>
   );
 }

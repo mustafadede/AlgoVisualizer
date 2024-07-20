@@ -9,7 +9,7 @@ function Bubble() {
   return (
     <div className="flex w-full min-h-full pb-16">
       {!isClosed && <DetailSidebar source={bubble} />}
-      <ActionLeftSection isClosed={isClosed} closeHandler={closeHandler} />
+      <ActionLeftSection title={"Bubble Sort"} isClosed={isClosed} closeHandler={closeHandler} />
     </div>
   );
 }
