@@ -29,11 +29,7 @@ function ActionLeftSection({ title, isClosed, closeHandler }) {
   }, [currentIndex]);
 
   const playHandler = () => {
-    if (title === "Bubble Sort") {
-      setPlay(true);
-    } else if (title === "Selection Sort") {
-      selectionSort();
-    }
+    setPlay(true);
   };
 
   const pauseHandler = () => {
@@ -42,8 +38,8 @@ function ActionLeftSection({ title, isClosed, closeHandler }) {
 
   return (
     <div className={isClosed ? "relative w-full h-full px-8 pb-20" : "relative w-2/3 h-full px-8 pb-20"}>
-      <Diagram array={array} currentIndex={currentIndex} />
       {isClosed && <h1 className="w-full mt-4 text-2xl font-bold text-center text-slate-300">{title}</h1>}
+      <Diagram array={array} currentIndex={currentIndex} />
       <Player
         randomzieHandler={randomizeArray}
         play={play}
